@@ -6,9 +6,46 @@ import Navbar from "./components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Shravan More | Software Developer Portfolio",
   description:
-    "My modern portfolio website built with Next.js and Tailwind CSS",
+    "Welcome to the portfolio of Shravan More — a passionate software developer skilled in React, Node.js, Java, and modern web technologies. Explore my projects, skills, certifications, and contact details.",
+  keywords: [
+    "Shravan More",
+    "Software Developer",
+    "Web Developer Portfolio",
+    "React Developer",
+    "Next.js Portfolio",
+    "Java Developer",
+    "Full Stack Developer",
+    "Tailwind CSS",
+    "Node.js",
+    "MongoDB",
+    "Frontend Developer",
+    "Backend Developer",
+  ],
+  openGraph: {
+    title: "Shravan More | Full Stack Software Developer",
+    description:
+      "Discover projects and skills of Shravan More, a passionate full stack developer with expertise in JavaScript, React, Node.js, and more.",
+    type: "website",
+    url: "https://shravan-more-portfolio-web.vercel.app/",
+    siteName: "Shravan More Portfolio",
+    images: [
+      {
+        url: "/hero.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Shravan More Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shravan More | Full Stack Developer",
+    description:
+      "Explore the developer portfolio of Shravan More including projects, skills, and contact information.",
+    images: ["/hero.jpeg"],
+  },
 };
 
 export default function RootLayout({
