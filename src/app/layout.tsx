@@ -23,29 +23,12 @@ export const metadata: Metadata = {
     "Frontend Developer",
     "Backend Developer",
   ],
-  openGraph: {
-    title: "Shravan More | Full Stack Software Developer",
-    description:
-      "Discover projects and skills of Shravan More, a passionate full stack developer with expertise in JavaScript, React, Node.js, and more.",
-    type: "website",
-    url: "https://shravan-more-portfolio-web.vercel.app/",
-    siteName: "Shravan More Portfolio",
-    images: [
-      {
-        url: "/hero.jpeg",
-        width: 1200,
-        height: 630,
-        alt: "Shravan More Portfolio",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Shravan More | Full Stack Developer",
-    description:
-      "Explore the developer portfolio of Shravan More including projects, skills, and contact information.",
-    images: ["/hero.jpeg"],
-  },
+  authors: [
+    {
+      name: "Shravan More",
+      url: "https://shravan-more-portfolio-web.vercel.app/",
+    },
+  ],
 };
 
 export default function RootLayout({

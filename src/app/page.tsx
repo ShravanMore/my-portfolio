@@ -59,11 +59,13 @@ export default function Home() {
             className="w-64 h-64 sm:w-80 sm:h-80 relative rounded-full bg-gradient-to- from-purple-500 to-blue-500 p-1 shadow-[0_0_30px_5px_rgba(59,130,246,0.5)]
  transition-transform duration-300 hover:scale-110"
           >
-            <div className="rounded-full overflow-hidden w-full h-full bg-gray-800">
+            <div className="relative rounded-full overflow-hidden w-full h-full bg-gray-800">
               <Image
                 src="/hero.jpeg"
                 alt="Profile Picture"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
                 className="object-cover rounded-full"
               />
             </div>
