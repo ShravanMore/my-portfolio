@@ -31,8 +31,8 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-gray-400 text-base sm:text-lg">
-            I'm a 4th-year AI & Data Science student with a passion for crafting
-            clean, responsive web experiences. Skilled in modern web
+            I&#39;m a 4th-year AI &amp; Data Science student with a passion for
+            crafting clean, responsive web experiences. Skilled in modern web
             technologies and programming, I love turning ideas into functional,
             user-friendly products.
           </p>

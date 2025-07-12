@@ -12,9 +12,9 @@ export default function AboutPage() {
           {/* Left: Description */}
           <div className="space-y-6 text-gray-300">
             <p>
-              I'm a final-year Artificial Intelligence and Data Science student
-              at Thadomal Shahani Engineering College, driven by a strong
-              passion for building impactful digital experiences.
+              I&#39;m a final-year Artificial Intelligence and Data Science
+              student at Thadomal Shahani Engineering College, driven by a
+              strong passion for building impactful digital experiences.
             </p>
             <p>
               Over the years, I’ve explored various aspects of software
@@ -23,14 +23,14 @@ export default function AboutPage() {
             </p>
             <p>
               Previously a core member of GDG TSEC and currently interning as a
-              Frontend Developer at Testriq QA Lab, I’m always eager to learn,
-              solve real-world problems, and push my creative and technical
-              limits.
+              Frontend Developer at Testriq QA Lab, I&#39;m always eager to
+              learn, solve real-world problems, and push my creative and
+              technical limits.
             </p>
             <p>
-              Beyond tech, I enjoy playing video games, solving Rubik's Cubes,
-              and editing travel videos — always seeking a balance between logic
-              and creativity.
+              Beyond tech, I enjoy playing video games, solving Rubik&#39;s
+              Cubes, and editing travel videos — always seeking a balance
+              between logic and creativity.
             </p>
           </div>
 
